@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depression Companion Chatbot</title>
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OcbUSYLdPMKAvmq-EHKFqqFp9tp1e0I19pupElpCMs7OWEPpLfvO7pluq8kdZpwmopPnatHd8f0ojK3ZHGPtwRYPlJ6hdqoNV1NfKSbVSbvQe-tv59Cv4PxxQ3AfDcteMQ6SpeI6PCkAx23x6ADL16nDd1cC2tAYjKVJqP-wsSd1hgcOEJZQx7wX6vzrsMZEsXIIoUCwWo2ehsPnsLx_EXyU6op3tSJwD5qfCAJvzbV2MWYHRaiIfhEKWeQGofStKc_lkzm_js-vGgVbUi-Hhjdb1kMFgcLVo5VzzT6gyji6b0KTMjY5LgraJ10m3hgN6gFbRFCVyyRxdC6ZH-avewhREocKfDWMHekNdw21Y1Yoom2xJE6jzWz6q5YLso0ZOXdtUogtZRxWB7oTIeB5cwu5gXIUhiaMFZRXn5JaupUNqa5mVhtZeBWYSt6OOjjDxloaU3xBX1HVTOCjq7qHJVHpDiSkU0gfsRRgy1_kz4VMcrwdfxoCO4Cq0QaBtFVZUytfAUAkIJdw3o_UgSlTgHOjxSxv0atjsNVpDdki0EQSJxwOy0OxFLTj2CF-GXc0_AZzhjtZiWQSHyVh9SGKxNUMWw3QQJvauz6SfnsBZtiyDF8tIfbUNYvEwdTRuklAKIqJwtjjAp128GqZ61ewUO4mwu_Z2_LVRYwt0SDW0vbxJREu0VRz_Q8scN1ua2QnCuElDbz0qU7M3RdxdiJOaJdYadqJ_0ysiZomyyBBO7eh-kV4fs0-R_f0CTj8KRPyx1XmSXQEHjZF84cIarxRwF_GmxCv31NOhb75eQD5fLDY-F4X-xcgkwp99_a6psPc5LvTfwqvrgI4946rGmUI3FdZVwi2f0dHhcdhiM4KGZPOfnkZd2wRQvCvsaRLsLFZVyWYFPBRE7z7co9kOgrreGjrYx9MeZ1SFpaiQwoyCX29bw0tsllO7LaUx_TIljV-d8Jzm_DfBkjH26CQhMg1So1FcNrzS36AJhe3r_6sRczCkbomN9bvp_z5AZqqdX_e1t4W7cdV00yK1uRRxohcj_DtsvGVLixxjZbL8Lozln5FU3q3svarhZ8NJS2Za9ykBoR7Orf3hsIY3-PrQM3qo06NE3j6djtITkBuA0AO9GY6qe8GUtBpXpjKKhA0Jf1QzNGdi8ubzq1vMOShPdqCCAcVfFDJylDmB-4IJSD-j4_8qZTIPUVwF1SWnkr37f7JLSsNh1w5jZreMfSgX8RKlBFZKvJHnNJaCTE1a_tJyRUGc9XV8SU4yKt7jrhoTDnNAqDrEN5P5sFrsKBdA1DpZwKUk4faGtDIXQB_aa0bdL9htpDYd_OVRH2BkflhtVBqUDuVM5uaeNERJ2bY4dvcKWs99gIhZ5xUCmJ06Jm3dNfJ3yVheFM8lGwr6tL-xtjJ_b2EO_4zHefZII1NogibR0I1bG5N7wvz6qit5fDhGVgAZo8qVxjYkk7zurFreRX7v5ZIi39RNKKiuWOgmU35gfhc4hnKf4p7FFUCMmdHLPaAhgKnYDFOrHpeWW6iqP8qslex9CpRYvhXsFCNuHUIKPazZgMQlTHovgZNpJSYHtqg96C3VKiSzHV4XnM_MhpOKve-Hi8RslmGjn4g2b3iGaorAN5eJq8l4npeVVeivf1KM8SCjPi1lRgMu2pvRJzXng5tJY_6oHW2B2oxEv0tTPHMblIzqTEHT6tVKNsqZQuF2EDb6LHALSPuF53fYGCpaa8SxiH5BMcJ5rs0NH1MWQ" nonce="26b9f8eb586823c1dd41eef14817137f" charset="UTF-8"></script>
+<link rel="stylesheet" href="static/firstpage.css"/>
+</head>
+<body>
+
+    <div id="background-image"></div>
+
+    <div id="chat-container">
+        <div id="chat-header">Depression Companion Chatbot</div>
+        <div id="chat-messages"></div>
+        <div id="user-input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button" onclick="sendMessage()"></button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById("user-input").value;
+            if (userInput.trim() === "") return;
+
+            var chatMessages = document.getElementById("chat-messages");
+            var userMessage = document.createElement("div");
+            userMessage.className = "message user-message";
+            userMessage.textContent = userInput;
+
+            chatMessages.appendChild(userMessage);
+            document.getElementById("user-input").value = ""; // Clear the input field
+
+            // Simulate a bot response (replace this with actual chatbot logic)
+            var botResponse = "I'm here to help. How can I assist you today?";
+            var botMessage = document.createElement("div");
+            botMessage.className = "message bot-message";
+            botMessage.textContent = botResponse;
+
+            chatMessages.appendChild(botMessage);
+
+            // Scroll to the bottom to show the latest messages
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+    </script>
+
+</body>
+</html>

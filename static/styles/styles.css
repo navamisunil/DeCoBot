@@ -1,0 +1,96 @@
+body{
+    /* margin: 0; */
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    background-color: #6956a5;
+    border: 0;
+    
+}
+
+.msger{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+}
+
+.columns {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    background-color: #6956a5;
+}
+
+.msg-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.msg-text, #clock{
+    margin: 0.5rem;
+}
+
+.msger-chat{
+    background-color: white;
+    height: 80%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow-y: scroll;
+    
+     /* adding scrollbar to white container  */
+}
+
+.msger-inputarea {
+    align-items: end;
+    justify-content: end;
+}
+
+.msg-info-name{
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.msger-input {
+    width: 85%;
+    margin-top: 1%;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.msger-send-btn{
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.msger-chat::-webkit-scrollbar {
+    display: block;
+    width: 0.7rem;
+    border-radius: 0.6rem;
+}
+
+.msger-chat::-webkit-scrollbar-track {
+    background: #725eb4;
+}
+
+.msger-chat::-webkit-scrollbar-thumb {
+    background: #534483;
+}
+
+.msger-chat::-webkit-scrollbar-thumb:hover {
+    background: #403563;
+}

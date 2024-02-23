@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeCoBot - Login</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/ui1.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" href="ui1.css"> -->
+    <!-- <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=5s-rnr2liqh9CoKNScv9mOLPfEfNFoc47UtJZxOIrHFtxsJned9vaAWJNDadbaormgoqqHqL4Vseccho6U-4G34tJhUObLWTQlSvfw7zbuj-QMVmztFNVoibLInzYoVfPxzCQ1PQ0XX47qKlU7-ZnkPS05cwG2s44XA9u3s_jxC3XkDIF_d4L6yPDvo99LgFf9TQ_cWBUR5MldbFLFTa2uwFuyCRyIeNxBDv1VjiNkUKZTjMbFI38Upt63KUSi4V6t1No_gc_9h8P4xX8inAUd3bItfzuo0jEE7hZiYJ_lxn9E9z7AuP131QbzLwWERgP7wLvG7NB4SyqX6AjlypvKTk4uA8PVfJYeQmCQ2ouQhVwYog5zPpC39ijGpLcEKDaw16AhbZc_4hpqE6fTZKlTWZZIvyl_7k7hhPtY1xG85tRRQclygmqs5kZiquzOrPiZRAsBOad4ta8bZz1aRS2CkGwFmDCqwcN6R5aMQ-1YFGaRWbryv6YRmmwBykF_-CSXxuJmw0OcZLCKzamL5y7K7n9F3p5c-8E5egW3V3VkHHi59HnGdrRcDJrXyoKiaPw1t1NFMnj4o1W6iJlZ3PB4IzDnOdggLXnhO_ZwTtM5goilWYxEN2IUkKQV3j7sC_W9MLSQEvoD31STB0Dr72CAqD-GTGN4S4-BqDVM4adC1YeqDjoBQnE4_C8W5smW6KCbf14ibKvIl2agW0QimA9QNDbV02u4MCuANO1NAnKEg3IzepKrHMB5aV5kz6H7wBoN85pIq8HMdcb9HS6oYKKPUpof-5OALGS54x_2UM6VmL5rmampOq-KHvCumPw0qGwqZpu7rzRO6o_Z3Qor6tALQzbQ0laVd2GWhrfwSidTyfI_QBT-LR1JMrJK6rIcjByWdhqFKFePP34uryw75JRmbNWz7WxDUltFI_gPIrviUB6EIlh4U7qwYItDUGo7rlLGgEUMkc7RBHVSQVNXjJswIByEb7kRFO03gaf3sLZpn0m4-SSB2Mp3JhH7_AGnOOeq3eDgC8JY1pF8a4_UG3byDKFDvdqDWOqZho4EVuGTTK0-nE3dtYbdjysK_iq_PiNi_-Bxlo7BkvtltWbn15rO6KtJEgrHBZfQvUTf7MPBUwb2fLlBmr45WP8ZcDCGMwD4OaZFCMn-PeGBn6TJYfosqQo7XVb5_a1EK-NIFNeqIYhhpwox3DL_vrscsCgdDe_j2MrvAwRsHQX7iThriui5bnmOJip7NAeWAXluTlEu8OT_nae_1kp3a3-thTIYXKeG0i-xbfteTtR509RWOCK9g70ZU71Nreokp4KhfOKJuEc_IqMkFynCJ_WNdRwwmxk7MkfwRzB-IO_EiddNqi0upYtVcsg6CA7EcHIuQZGz34eDE86erjCtPhwmST3qkqZcSJq-yfb1xHF8o8D8eZRRkxZZzc7Eu4bzTAM8lXpL7XNURmFHJ92L5-VQMFH32JE7cNAhoLouM6XntAWrFz0N9BgWy327JjpWU51ykL8C_hcvwZIHsBnIigkVzm_ODY3tvdxv5KtGGu2etk_L-wcz3XUzm-v9lg6GuFphieXmic1ykcbbbeNbgLky_kHuPlx2aCYl5tVqG7iFruBozI6-lXR1hTX6NOgvSfc21MxNZbM4AOpGByymk9eysepbBJN1KoduQvXtAF92qDpiJRqj8bqIarVNQgUUeoKYC-ViwFlpGLkk2fVsOA-_f20bUzsH9nJOYTwj3w3uaWDkbfTTOHkA58LmSsiDjfovI5D8k" nonce="b75ddace50db0a67d91660c336ce081b" charset="UTF-8"></script> -->
+</head>
+<body>
+
+    <h1 id="chatbot-name">DeCoBot</h1>
+    <div class="buttons">
+    <a href="{{url_for('bot')}}"><button id="login-button">Login</button></a>
+    
+    <a href="{{url_for('bot')}}"><button id="signup-button">Signup</button></a>
+    </div>
+
+    <script>
+        // Array of background images
+        const backgrounds = ['ui.jpg','pic.png'];
+        let index = 0;
+        // Function to change background image
+        function changeBackground() {
+            // document.body.style.backgroundImage = `url('${backgrounds[index]}')`;
+            document.body.style.backgroundImage = `url({{url_for('static', filename='img/pic.png')}})`;
+            index = (index + 1) % backgrounds.length;
+        }
+        // Initial call to start the background change
+        setInterval(changeBackground, 3000); // Change every 4.5 seconds
+    </script>
+
+</body>
+</html>
