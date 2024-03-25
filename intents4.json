@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "Hey","hi", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour","Hay", "Sasa", "Good Evening", "Good afternoon","Good morning","Good day","Greetings","How are you?","What's up?","Yo!"],
+     "patterns": ["Hi", "Hey","hi" ,"Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour","Hay", "Sasa", "Good Evening", "Good afternoon","Good morning","Good day","Greetings","How are you?","What's up?","Yo!"],
      "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?","Good morning! How's your day going?",
     "Hey there! How can I assist you?",
     "Greetings! How can I help you today?",
@@ -384,7 +384,7 @@
       ],
       "responses": [
         "Assertiveness skills involve expressing your thoughts, feelings, and needs in a clear, direct, and respectful manner, while also respecting the rights and boundaries of others.",
-        "You can become more assertive in your communication by practicing active listening, using I statements to express your thoughts and feelings, setting and enforcing boundaries, and standing up for yourself assertively but respectfully.",
+        "You can become more assertive in your communication by practicing active listening, using 'I' statements to express your thoughts and feelings, setting and enforcing boundaries, and standing up for yourself assertively but respectfully.",
         "Yes, there are many assertiveness training courses available, both online and in-person, that can help you develop and strengthen your assertiveness skills. These courses often cover topics such as communication techniques, conflict resolution, and self-confidence building."
       ]
     },
@@ -540,8 +540,8 @@
 {
   "tag": "grandparents_loss",
   "patterns": [
-    "My grandfather died","my grandpa died",
-    "My grandmother died",
+    "My grandfather died.",
+    "My grandmother died.",
     "How can I cope with the loss of my grandparents?",
     "Are there cultural or familial traditions for mourning the loss of grandparents?",
     "What advice do you have for navigating grief when losing both grandparents?"
@@ -808,24 +808,6 @@
   ]
 },
 {
-  "tag": "missing_family_member",
-  "patterns": [
-    "My family member is missing.","my pet is missing",
-    "What should I do if a family member is missing?",
-    "How can I help locate a missing family member?",
-    "What steps can be taken to report a missing person?",
-    "How can I support other family members during this difficult time?",
-    "What resources are available for families with missing loved ones?"
-  ],
-  "responses": [
-    "If a person is missing, the first step is to contact your local law enforcement immediately. Provide them with all relevant information, including a recent photo, description, and any details about the circumstances surrounding the disappearance.",
-    "You can also take proactive steps by reaching out to friends, acquaintances, and local places your family member might frequent. Share information on social media platforms to increase awareness and seek assistance from the community.",
-    "To report a missing person, gather important details such as the person's full name, date of birth, physical description, last known whereabouts, and any other relevant information. Report the missing person to the police and ensure they enter the information into national missing persons databases.",
-    "Supporting other family members during this difficult time is crucial. Encourage open communication, share updates as you receive them, and consider seeking counseling or support groups to cope with the emotional impact of a missing loved one.",
-    "Resources for families with missing loved ones include organizations such as the National Center for Missing & Exploited Children, local law enforcement agencies, and non-profit groups that specialize in missing persons cases. These organizations can provide guidance, support, and resources throughout the search process."
-  ]
-},
-{
   "tag": "eating_disorders",
   "patterns": [
     "Iam having eating disorders.",
@@ -846,7 +828,6 @@
 {
   "tag": "decline_in_academic_performance",
   "patterns": [
-    "I failed in my exam.","i failed my exams",
     "My academic performance declined lately.",
     "What does it mean to experience a decline in academic performance?",
     "What are common causes or factors contributing to a decline in academic performance?",
@@ -865,7 +846,7 @@
 {
   "tag": "happy",
   "patterns": [
-    "Iam happy.","i am good",
+    "Iam happy.",
     "Iam feeling very happy today."
   ],
   "responses":[
@@ -890,42 +871,6 @@
   ]
 },
 {
-  "tag": "schizophrenia",
-  "patterns": [
-    "Iam having schizophrenia.",
-    "What is schizophrenia?",
-    "What are the common symptoms of schizophrenia?",
-    "How is schizophrenia diagnosed and treated?",
-    "Can individuals with schizophrenia lead fulfilling lives?",
-    "What support is available for individuals with schizophrenia?"
-  ],
-  "responses": [
-    "Schizophrenia is a serious mental health disorder characterized by disruptions in thought processes, perceptions, and emotions. It can affect how individuals perceive reality, leading to difficulties in distinguishing between what is real and what is not.",
-    "Common symptoms of schizophrenia include hallucinations (false perceptions, like hearing voices), delusions (false beliefs resistant to reason), disorganized thinking, reduced emotional expression, and difficulties in focusing or maintaining attention. Symptoms often emerge in late adolescence or early adulthood.",
-    "Diagnosis of schizophrenia involves a comprehensive evaluation by mental health professionals, considering the presence and duration of symptoms. Treatment typically includes antipsychotic medications to manage symptoms, along with psychotherapy, social support, and sometimes rehabilitation programs.",
-    "With appropriate treatment and support, individuals with schizophrenia can lead fulfilling lives. Medications help manage symptoms, and therapy may address challenges in daily functioning and social interactions. Support from family, friends, and community resources plays a crucial role in promoting recovery.",
-    "Support for individuals with schizophrenia includes community mental health services, psychoeducation, vocational training, and housing assistance. Family support groups, peer support, and therapy aimed at improving coping skills and social functioning contribute to the overall well-being of individuals with schizophrenia."
-  ]
-},
-{
-  "tag": "disruptive_behavior_dissocial_disorders",
-  "patterns": [
-    "What is disruptive behavior and dissocial disorders?",
-    "What are common signs and symptoms of disruptive behavior disorders?",
-    "How are disruptive behavior disorders diagnosed and treated?",
-    "What impact can disruptive behavior disorders have on individuals and their surroundings?",
-    "What support is available for individuals with disruptive behavior disorders?"
-  ],
-  "responses": [
-    "Disruptive behavior disorders, including dissocial disorders, are a group of mental health conditions characterized by persistent patterns of behaviors that violate societal norms, rules, and the rights of others. These disorders often manifest in childhood or adolescence.",
-    "Common signs and symptoms of disruptive behavior disorders include aggression, defiance, conduct problems, rule-breaking, impulsivity, and difficulty forming positive relationships. Dissocial disorders, such as conduct disorder, specifically involve persistent patterns of antisocial behaviors.",
-    "Diagnosis of disruptive behavior disorders involves a thorough assessment by mental health professionals, considering the nature and duration of behaviors. Treatment approaches may include behavioral therapy, family therapy, and, in some cases, medications to address specific symptoms or comorbid conditions.",
-    "Disruptive behavior disorders can have a significant impact on individuals and their surroundings. These disorders may lead to academic or occupational difficulties, strained relationships with family and peers, legal problems, and an increased risk of mental health challenges later in life.",
-    "Support for individuals with disruptive behavior disorders includes interventions aimed at improving social skills, anger management, and impulse control. Behavioral therapy can address underlying issues, and family involvement is often crucial in creating a supportive environment. Collaborative efforts involving schools, mental health professionals, and community resources contribute to effective management and support."
-  ]
-},
-
-{
   "tag": "journaling",
   "patterns": [
     "What is journaling?",
@@ -940,109 +885,6 @@
     "Starting a journaling practice can be simple. Begin by choosing a medium (paper or digital), setting aside dedicated time, and allowing yourself the freedom to write without judgment. Some find it helpful to start with prompts or focus on specific topics, while others prefer freeform writing.",
     "There are different types of journaling techniques to suit individual preferences. Examples include gratitude journaling, where one focuses on positive aspects of life, or stream-of-consciousness writing, allowing thoughts to flow without structure. Bullet journaling is a method that combines planning and reflection, while art journaling incorporates visual elements.",
     "Journaling can be therapeutic, providing a safe space for emotional expression and self-discovery. It can be particularly helpful in managing stress, anxiety, and depression. Therapeutic journaling may involve exploring feelings, challenging negative thoughts, and gaining insights into behavioral patterns."
-  ]
-},
-{
-  "tag": "neurodevelopmental_disorders",
-  "patterns": [
-    "What are neurodevelopmental disorders?",
-    "What are common types of neurodevelopmental disorders?",
-    "What are the signs and symptoms of neurodevelopmental disorders?",
-    "How are neurodevelopmental disorders diagnosed and treated?",
-    "What support is available for individuals with neurodevelopmental disorders?"
-  ],
-  "responses": [
-    "Neurodevelopmental disorders are a group of conditions that affect the development of the nervous system, leading to impairments in cognitive, motor, communication, and social functioning. These disorders typically manifest early in development and often persist throughout the individual's lifespan.",
-    "Common types of neurodevelopmental disorders include attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder (ASD), intellectual disabilities, specific learning disorders, and communication disorders. Each type has unique characteristics and diagnostic criteria.",
-    "Signs and symptoms of neurodevelopmental disorders vary based on the specific condition but may include challenges in attention and focus, difficulties in social interactions, language delays, motor coordination issues, and learning difficulties.",
-    "Diagnosis of neurodevelopmental disorders involves a comprehensive evaluation by healthcare professionals, considering developmental history, behavioral observations, and standardized assessments. Treatment approaches may include behavioral therapy, educational interventions, medication, and supportive services tailored to the individual's needs.",
-    "Support for individuals with neurodevelopmental disorders is often multidisciplinary and includes educators, therapists, and healthcare professionals. Early intervention services, special education programs, and community resources play a crucial role in addressing the unique needs of individuals with neurodevelopmental disorders. Support groups and advocacy organizations can also provide valuable assistance for individuals and their families."
-  ]
-},
-{
-  "tag": "health_systems_social_support",
-  "patterns": [
-    "What are health systems and social support?",
-    "How do health systems contribute to overall well-being?",
-    "What role does social support play in maintaining good health?",
-    "How can individuals access and navigate health systems effectively?",
-    "What are some effective ways to build and maintain social support networks?"
-  ],
-  "responses": [
-    "Health systems encompass the organizational structures, resources, and services that contribute to the delivery of healthcare. This includes hospitals, clinics, healthcare professionals, public health initiatives, and policies designed to promote and maintain the health of individuals and communities.",
-    "Health systems play a crucial role in overall well-being by providing preventive care, diagnosing and treating illnesses, promoting health education, and ensuring access to essential healthcare services. Effective health systems contribute to improved health outcomes and the overall quality of life.",
-    "Social support refers to the network of relationships and resources that individuals have access to, providing emotional, instrumental, and informational assistance. Social support is recognized as a significant factor in maintaining good mental and physical health.",
-    "To access and navigate health systems effectively, individuals can educate themselves about available healthcare services, understand insurance coverage, establish a relationship with a primary care provider, and actively participate in preventive care. Being informed and proactive contributes to better health management.",
-    "Building and maintaining social support networks involves fostering connections with family, friends, and community. Effective ways include open communication, active listening, mutual assistance, and participating in social activities. Supportive relationships contribute to emotional well-being, stress reduction, and better health outcomes."
-  ]
-},
-{
-  "tag": "body_dysmorphic_disorder",
-  "patterns": [
-    "What is body dysmorphic disorder (BDD)?",
-    "How does body dysmorphic disorder affect individuals?",
-    "What are common signs and symptoms of body dysmorphic disorder?",
-    "How is body dysmorphic disorder diagnosed and treated?",
-    "What support is available for individuals with body dysmorphic disorder?"
-  ],
-  "responses": [
-    "Body dysmorphic disorder (BDD) is a mental health condition characterized by obsessive preoccupation with perceived flaws or defects in one's physical appearance, which may be minor or imagined. Individuals with BDD often have a distorted self-image, leading to significant distress and impairment in daily functioning.",
-    "Body dysmorphic disorder affects individuals both emotionally and behaviorally. The obsessive focus on perceived flaws can lead to anxiety, depression, and avoidance of social situations. Individuals may engage in compulsive behaviors such as excessive grooming, seeking reassurance, or undergoing frequent cosmetic procedures to address their concerns.",
-    "Common signs and symptoms of body dysmorphic disorder include preoccupation with appearance flaws, spending significant time examining oneself in mirrors, comparing one's appearance to others, seeking constant reassurance about their looks, and avoiding social situations due to appearance concerns.",
-    "Diagnosis of body dysmorphic disorder involves a mental health professional conducting a thorough assessment, considering the individual's thoughts, behaviors, and impact on daily life. Treatment may include cognitive-behavioral therapy (CBT), specifically focused on BDD, and medications, such as selective serotonin reuptake inhibitors (SSRIs), to alleviate symptoms.",
-    "Support for individuals with body dysmorphic disorder includes therapeutic interventions like CBT, medication management, and support groups. Psychoeducation about body image, self-compassion, and involving family and friends in the recovery process can contribute to overall well-being and improved mental health."
-  ]
-},
-{
-  "tag": "borderline_personality_disorder",
-  "patterns": [
-    "What is borderline personality disorder (BPD)?",
-    "What are common signs and symptoms of borderline personality disorder?",
-    "How is borderline personality disorder diagnosed and treated?",
-    "How does borderline personality disorder impact relationships and daily life?",
-    "What support is available for individuals with borderline personality disorder?"
-  ],
-  "responses": [
-    "Borderline personality disorder (BPD) is a mental health condition characterized by pervasive instability in mood, self-image, and interpersonal relationships. Individuals with BPD often experience intense emotions, have difficulties regulating emotions, and may engage in impulsive behaviors.",
-    "Common signs and symptoms of borderline personality disorder include fear of abandonment, unstable relationships, identity disturbance, impulsive and risky behaviors, recurrent suicidal thoughts or self-harming behaviors, intense mood swings, and chronic feelings of emptiness.",
-    "Diagnosis of borderline personality disorder involves a mental health professional conducting a comprehensive assessment, considering the individual's emotional and behavioral patterns. Treatment typically includes psychotherapy, such as dialectical behavior therapy (DBT) or cognitive-behavioral therapy (CBT), to address emotional dysregulation and improve coping skills.",
-    "Borderline personality disorder can have a significant impact on relationships and daily life. Individuals with BPD may struggle with maintaining stable relationships, experience frequent conflicts, and face challenges in work or academic settings. Mood swings and impulsivity can contribute to difficulties in daily functioning.",
-    "Support for individuals with borderline personality disorder includes psychotherapy, medication management for co-occurring conditions, and support groups. Building a strong therapeutic alliance, developing coping skills, and involving family and friends in the treatment process can contribute to improved well-being and better management of symptoms."
-  ]
-},
-{
-  "tag": "obsessive_compulsive_disorder",
-  "patterns": [
-    "What is obsessive-compulsive disorder (OCD)?",
-    "What are common signs and symptoms of obsessive-compulsive disorder?",
-    "How is obsessive-compulsive disorder diagnosed and treated?",
-    "How does obsessive-compulsive disorder impact daily life and mental health?",
-    "What support is available for individuals with obsessive-compulsive disorder?"
-  ],
-  "responses": [
-    "Obsessive-compulsive disorder (OCD) is a mental health condition characterized by persistent, intrusive thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) performed in response to the obsessions. These behaviors are intended to alleviate anxiety or prevent a feared event.",
-    "Common signs and symptoms of obsessive-compulsive disorder include unwanted and distressing thoughts or images, compulsive rituals or behaviors, fear of contamination, need for symmetry or order, and significant interference in daily functioning due to obsessions and compulsions.",
-    "Diagnosis of obsessive-compulsive disorder involves a mental health professional conducting a thorough assessment, considering the presence and impact of obsessions and compulsions. Treatment often includes a combination of cognitive-behavioral therapy (CBT), specifically exposure and response prevention (ERP), and medication, such as selective serotonin reuptake inhibitors (SSRIs).",
-    "Obsessive-compulsive disorder can impact daily life by consuming significant time and energy, leading to distress, anxiety, and impairment in functioning. Individuals with OCD may find it challenging to perform routine tasks or engage in normal activities due to the impact of obsessions and compulsions.",
-    "Support for individuals with obsessive-compulsive disorder includes therapeutic interventions like CBT, medication management, and support groups. Psychoeducation about the nature of OCD, developing coping strategies, and involving family and friends in the treatment process can contribute to improved well-being and better management of symptoms."
-  ]
-},
-{
-  "tag": "paranoid_thoughts",
-  "patterns": [
-    "Iam having paranoid thoughts.",
-    "What are paranoid thoughts?",
-    "How do paranoid thoughts manifest?",
-    "What are common causes or triggers for paranoid thoughts?",
-    "How can one manage or cope with paranoid thoughts?",
-    "When should someone seek professional help for persistent paranoid thoughts?"
-  ],
-  "responses": [
-    "Paranoid thoughts involve irrational and intense beliefs that others are plotting against or intending harm to the individual, even in the absence of evidence. These thoughts can be distressing and impact daily functioning.",
-    "Paranoid thoughts may manifest as constant suspicion, fear of betrayal, feelings of persecution, or believing that others are conspiring against the person. These thoughts can vary in intensity and may be focused on specific individuals, groups, or the general environment.",
-    "Common causes or triggers for paranoid thoughts include past traumatic experiences, substance abuse, certain mental health conditions (such as paranoid personality disorder or schizophrenia), high stress levels, or a combination of genetic and environmental factors.",
-    "Managing or coping with paranoid thoughts may involve self-awareness, challenging irrational beliefs, and practicing mindfulness techniques. Seeking support from friends, family, or a mental health professional can provide assistance in developing coping strategies and addressing underlying issues.",
-    "Professional help should be sought if paranoid thoughts persist, interfere with daily life, or cause significant distress. A mental health professional can conduct a thorough assessment, provide a diagnosis if applicable, and recommend appropriate interventions, which may include therapy, medication, or a combination of both."
   ]
 },
 {
@@ -1133,7 +975,7 @@
       "responses": [
         "To incorporate humor into your daily routine, try seeking out opportunities for laughter and joy, sharing funny stories or jokes with friends or family, watching comedy shows or stand-up routines, and finding humor in everyday situations or challenges.",
         "Yes, laughing with others can strengthen social bonds, enhance communication and empathy, promote a sense of belonging and connection, and provide mutual support and comfort during difficult times.",
-        "Sure! Here's a funny anecdote: I once tried to teach my cat to play the piano, but all he did was paw at the keys and meow loudly. Needless to say, it was a catastrophic failure, but we both had a good laugh!"
+        "Sure! Here's a funny anecdote: I once tried to teach my cat to play the piano, but all he did was paw at the keys and meow loudly. Needless to say, it was a 'catastrophic' failure, but we both had a good laugh!"
       ]
     },
     {
@@ -6269,15 +6111,6 @@
         "Neglecting your self-care needs can have a negative impact on your mental health. Let's explore barriers to self-care and develop strategies for overcoming them.",
         "Finding time to relax and unwind is important for your mental health, even when life feels busy. Let's explore relaxation techniques that can help you find moments of peace.",
         "Feeling overwhelmed is a signal that you need to prioritize self-care. Let's explore self-care tips and techniques that can help you manage stress and feel more grounded."
-      ]
-    },
-    {
-      "tag": "contact",
-      "patterns": [
-        "helpline numbers","emergency numbers","emergency contacts","contact numbers","professionals numbers"
-      ],
-      "responses": [
-        "Therapist: 9976543245\nHospital:7654567865\nPolice:100\nHelpline:101"
       ]
     }
 
